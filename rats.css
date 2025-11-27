@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffebee; /* Более яркий фон - светло-розовый */
+    color: #333;
+}
+header {
+    background: linear-gradient(to right, #ff4081, #ffeb3b); /* Яркий градиент: розовый к желтому */
+    color: white;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+h2 {
+    color: #ff4081; /* Яркий розовый для заголовков */
+}
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product-item {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #ffeb3b; /* Яркая желтая граница */
+    text-align: center;
+    background-color: #fffde7; /* Светло-желтый фон для карточек */
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #ff4081; /* Розовая рамка вокруг фото */
+}
+.product-item h3 {
+    color: #ff5722; /* Яркий оранжевый для названий */
+}
+.product-item button {
+    background-color: #ff4081; /* Яркий розовый для кнопок */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.product-item button:hover {
+    background-color: #f50057; /* Темнее розовый при наведении */
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(to right, #ffeb3b, #ff4081); /* Обратный градиент для футера */
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.2);
+}
+a {
+    color: #ff5722; /* Оранжевый для ссылок */
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+    color: #f50057;
+}
